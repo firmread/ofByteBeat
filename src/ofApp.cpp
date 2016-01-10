@@ -51,7 +51,3 @@ void ofApp::audioOut(float* input, int n, int channels) {
 		}
 	}
 }
-
-void ofApp::keyPressed(int key){
-    shader.load("oneliner");
-}

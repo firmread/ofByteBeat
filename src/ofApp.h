@@ -24,8 +24,6 @@ public:
 	void setup();
 	void update();
 	void draw();
-
-    void keyPressed(int key);
 	void audioOut(float* input, int n, int channels);
 	ofSoundStream soundStream;	
 	
