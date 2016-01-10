@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxAutoReloadedShader.h"
 
 // some examples
 // (t*((t>>12|t>>8)&63&t>>4));// viznut-0
@@ -28,7 +29,7 @@ public:
 	void audioOut(float* input, int n, int channels);
 	ofSoundStream soundStream;	
 	
-	ofShader shader;
+	ofxAutoReloadedShader shader;
 	ofFbo fbo;
 	ofPixels audioPixels;
 	unsigned long time;
