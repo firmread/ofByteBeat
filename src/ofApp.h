@@ -1,7 +1,6 @@
 #pragma once
 
 #include "ofMain.h"
-//#include "ofAutoShader.h"
 
 // some examples
 // (t*((t>>12|t>>8)&63&t>>4));// viznut-0
