@@ -29,7 +29,7 @@ void ofApp::draw() {
 	fbo.readToPixels(audioPixels);
 	
 	ofSetColor(255, 0, 0);
-	int y = time / (rateDivider * ofGetWidth());
+	int y = (time / (rateDivider * ofGetWidth())) %ofGetHeight();
 	ofDrawLine(0, y, ofGetWidth(), y);
 }
 
